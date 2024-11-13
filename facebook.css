@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins','sans-serif';
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+main{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+}
+footer{
+    margin-top: 50px;
+    height: 30vh;
+    background-color: rgb(109, 109, 109);
+}
+.row{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 1000px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50% -50%);
+}
+.col-logo{
+    flex: 0 0 50%;
+    text-align: left;
+}
+.col-form{
+    flex: 0 0 40%;
+    text-align: center;
+}
+.col-logo h2{
+max-width: 300px;
+}
+.col-logoh2{
+    font:26px;
+    font-weight: 400px;
+    padding: 0 30px;
+    line-height: 32px;
+}
+.col-form .form-container{
+    background-color: rgb(204, 204, 204);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0,0, 0.1), 0 8px 16px rgba(0, 0,0, 0.1);
+margin-bottom: 20px;
+padding: 20px;
+max-width: 400px;
+}
+.col-form .form-container input,
+.col-form .form-container .btn-login{
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.col-form .form-container input{
+    border: 1px solid rgb(95, 95, 95);
+    color: black;
+    padding: 0 8px;
+    outline: none;
+}
+.col-form .form-container input:focus{
+    border-color: rgb(0, 0, 0);
+    box-sizing: 0 0 0 2px;
+}
+.col-form .form-container .btn-login{
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: white;
+    font-weight: 700;
+}
+.col-form .form-container a{
+    display: block;
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1 solid whitesmoke;
+}
+.col-form .form-container a:hover{
+    text-decoration: underline;
+}
+.col-form .form-container .btn-new{
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.col-form p{
+    font-size: 14px;
+}
+.col-form p a{
+    text-decoration: none;
+     color: black;
+     font-weight: 600;
+}
+.col-form p a:hover{
+    text-decoration: underline;
+}
